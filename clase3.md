@@ -73,16 +73,20 @@ un elemento de encabezado, tambien hay
 una etiqueta de pie de pagina que contiene cosas como derechos de autor o la
 direccion de su empresa
 Este tipo de etiquetas estan orientadas al contenido que muestra en una pagina web y proporciona mas matices al lenguaje de marcado HTML
-Tambien hay elementos que le  permiten tener interaccion con el navegador por ejemplo, la etiqueta de audio
+Tambien hay elementos que le permiten tener interaccion con el navegador por ejemplo, la etiqueta de audio
 Puede usar esto para mostrar una barra de control de audio en su pagina y hacer que el navegador reproduzca audio.
 Y el elemento canvas que proporciona un lugar en su pagina que usa para pintar y mostrar formas personalizadas
 Y el elemento de formulario, que es la base para la mayoria de los sitios web y aplicacion interactivos
 Puede usar esto para publicar informacion del navegador en el servidor
-por ejemplo, texto que el usuario ingreso en un campo de texto 
+por ejemplo, texto que el usuario ingreso en un campo de texto
 Dentro del formulario, tambien puede ver
 un boton, que es un elemento de entrada del tipo enviar
 Esto es en lo que un usurio hace clic cuando desea enviar informacion al servidor
 Y tambien hay una etiqueta de video que puede reproducir videos en el navegador
 Hay muchos mas de estos tipos de elementos, que son muy poderosos.
 Supongo que muchos de elloss vendran en el futuro
-veamos un ejemplo de 
+veamos un ejemplo de
+los elementos son las palabras
+y etiqueta son <>
+
+el elemento iframe
