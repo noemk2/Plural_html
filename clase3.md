@@ -89,4 +89,23 @@ veamos un ejemplo de
 los elementos son las palabras
 y etiqueta son <>
 
-el elemento iframe
+el elemento iframe incorpora una ventana para youtube
+uso de un marco no solo genera html para usted, sino que tambien le permite
+hacer cosas mas avanzadas, como comunicarse con una base de datos
+Todo el codigo que escribe y todo el codigo del framework
+vive en el servidor web. Ahora la PC del del cliente
+que tiene un navegador web, puede solicitar un documentos
+desde una URL
+El marco generara HTML para el documento solicitado y lo enviara al navegador
+para que muestre en la pantalla. Por lo tanto, en lugar de tener documentos HTMl
+simples, una marco proporciona una capa a su alrededor, que genera HTML y proporciona caracteristicas adicionales
+como la posibilidad de conectarse a una base de datos
+
+html es un estandar que define los elementos y atributos que los navegadores entienden y pueden mostrar en la pantalla
+HTML es un estandar, que es interpretado por los navegadores web.
+A lo largo de los años, muchas organizaciones y grupos de trabajo han participado en el desarrollo del estandar HTML
+y como hemos visto, el estandar HTML consta de muchos elementos y atributos algunos simples y otros mas avanzados
+Y parece que esta evolucionanado para tener mas y mas elementos interactivos, como el elemento de video
+Y finalmente, hemos analizado como trabajar con HTML y hemos visto que puede escribirlo desde cero
+utilizando herramientas como ide
+y que puede usar frameworks como ASP.NET para generar HTML y hacer cosas mas avanzadas como conectarse a una base de datos
