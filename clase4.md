@@ -59,3 +59,166 @@ colo: blue
 </style>
 
 hacerlo en forma de etiquetas es mas reutilizable
+para vincular una hoja de estilo a un archivo css que contiene estos estilos
+cuando el navegador carga el html tambien carga este archivo css y usa los estilos en el HTML haciendo que el color en el azul diff
+El uso de css como este en archivos de hoja de estilo externos proporciona la maxima capacidad de mantenimiento y reutilizacion
+En primer lugar, los estilos ya no estan en el documento HTML, lo que hace que todo sea mas facil de leer y mantener
+Tambien proque los estilos estan en un documento separado
+Puedo vincular ese documento en
+multiples documentos html y aplicar los mismos estilos con la maxima reutilizacion, lo qeu da como resultado qeu los estilos se apliquen a ambas paginas web cuado el navegador los pinte
+Como vimo, css consiste en propiedades y atributos como el color que se esta utlizando. azul o el texto es metalico y, como habras notado, ya nos ve puede indicar a qeu elemento se debe aplicar la propiedad.
+Esto se hace con los llamados selectores como este que
+
+<style>
+div {
+	color: blue;
+}
+</style>
+
+selecciona todos los elementos de diferencias en una pagina HTML
+o este que selecciona todos los elementos que tienen un atributo de clase A establecido en la clase uno
+´´´css
+.class {
+color: blue;
+}
+´´´
+Y existe este selector que selecciona todos los elementos en una pagina HTML qeu tienen un ID.
+Fuera de la era uno
+
+<style>
+#para1 {
+	color : blue;
+}
+</style>
+
+Tambien puedes anidar cosas como esta
+
+<style>
+div p {
+	text-align: center;
+	color: red;
+}
+</style>
+
+Este selecto selecciona todos los elementos de parrafo que tienen un elemento diff como padre
+
+y este selecciona multiples elementos
+
+<style>
+h1, h2, p {
+	text-align: center;
+	color: red;
+}
+</style>
+
+En la pagina HTML
+Selecciona todos los encabezados de un ecabezado a los elementos de parrafo de
+Estos son algunos de los selectores css
+Hay muchos mas selectores qeu puede usar en css para seleccionar elementos en HTML y aplicar propiedades
+El CSS del estudiante se denomina cascada en cascada como las hojas de estilo en cascada porque las propiedad es se aplican en un orden especifico en funcion de la prioridad
+Considerado este HTML a los elementos de parrafo con mensajes de texto
+Ambos tienen asignados especificos
+
+<p class="specific">Paragraph.</p>
+<p class="specific" id="morespecific">Paragraph with id!</p>
+
+de clase y no de ellos tiene un Id off
+mas especifico. Ahora aplicamos estas CSS al correo HC que da como resultado esta pagina webque da como resultado esta
+
+<style>
+
+#morespecific {
+	background: red;
+	border: 1px solid black;
+	}
+.specific{
+	background-color: gray;
+	border: none !important;
+}
+p {
+	background-color: blue;
+	color: white;
+	padding: 5px;
+}
+</style>
+
+lo que sucede aqui es que el selector de parrafo en la
+el atributo de la clase (selectores)
+class="especific"
+tienen mas prioridad que los atributos de elemento
+
+y que id selector tiene mas prioridad que las clases
+y !important hace que el selector de clase sea mas importante que el id
+y esto es lo que hace css ser dificil de leer y mantener
+
+Advanced CSS Syntax
+tambien hay capacidades mas avanzadas, que se pueden encontrar en las propiedades mas nuevas de css
+una de ellas es la propiedad de consulta de medio (media query)
+En este
+
+<style>
+@media screen and (min-width: 480px){
+body {
+	background-color: lightgreen;
+}
+}
+</style>
+
+yo le digo al browser que cuando vea @media_screen imprima una pagina
+cuando la pantalla tiene un minimo de 480px
+quiero que el elemento body tenga color de fonde verde
+ESTO da como resultado que cuando maximizamos el navegador cambie su color a verde
+y cuando amplio al minio se coloque en banco
+Esto es lo que llamamos una pagina web responsiva (receptiva y responde al cambio, se ajusta en consecuencia)
+Esto le permite tener un aspecto diferente en pantallas grandes y pequeñas (como en dispositivos moviles)
+
+Otra propiedad avanzadas es el uso de gradientes
+
+<style>
+#grad{
+	background: linear-gradient(red, yellow);
+}
+</style>
+
+con html los navegadores web son los que proporcionan las capacidades reales
+css solo le especifica el standar de lo que deben hacer cuando interpreta una determinada propiedad
+Y al igual que con HTML, no todos los navegadores ofrecen el mismo soporte para todos los que ven esta propiedad
+Hoy en dia, la mayoria de los anvegadores admiten la mayoria de los estandares css
+pero no todo en el sitio web
+
+#Working with CSS
+como puedes crearlo
+la web consta de de 2 documentos
+documentos HTML que opcionalmente se puede diseñar con documentos css
+Los documentos HTML y CSS viven en un servidor web en alguna parte
+y se identifican mediante URL unicas. HTML y css pueden vivir en un mismo servidor
+URL: http://serve.com/document1.html
+URL: http://serve.com/stylesheet.css
+
+o en diferentes servidores web, no importa, ya que puede vincular cualquier documento desde un documento html
+estos documentos luego son transportado a traves del protocolo HTTP
+que los envia a los navegadores web que los solicitaron en las computadoras de los clientes.
+Para trabajar con css, todo lo que necesitamos saber es como acoplar CSS a HTML
+
+otra cosa que hay que tener en cuenta es que el navegador web lo hace todo
+
+#CSS Libraries
+
+Otra forma de usar CSS es usar una libreria
+Estos son archivos en css escritos por otras personas que ya
+contiene muchos estilos que puede usar en
+su documento de html
+hay muchas bibliotecas de css disponibles
+son de codigo abierto y gratuitas
+Algunos contienen solo estilos css, otros contienen muchas mas cosas como archivos
+como javascript, imagenes y mas
+El mas popular es Bootstrap, creada por twitter
+Otra es Hamburguesas.css
+font Awesome, Ionic y materialice
+Cada uno de estos proporciona diferentes estilos y capacidades diferentes
+y todos estos estan diseñados para facilitarle la vida, ya que no tiene que crear los estilos, solo los usa
+Veamos como puedes usar bootstrap como ejemplo
+Para que bootstrap este vinculado a su HTML, podria
+apuntar a uan URL como esta. Esta URL aunta a un archivo css bootstrap, que esta alojado en un servidor CDN
+por lo que el servidor de otra persona 
+3.46
