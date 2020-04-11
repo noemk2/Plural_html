@@ -220,5 +220,37 @@ y todos estos estan diseñados para facilitarle la vida, ya que no tiene que cre
 Veamos como puedes usar bootstrap como ejemplo
 Para que bootstrap este vinculado a su HTML, podria
 apuntar a uan URL como esta. Esta URL aunta a un archivo css bootstrap, que esta alojado en un servidor CDN
-por lo que el servidor de otra persona 
-3.46
+por lo que el servidor de otra persona utiliza una url como esta, no tiene que estar preocupandoce por alojar el archivo css
+Su propio servidor web, pero debe tener en cuenta que este servidor que no controla a veces no puede estar disponible
+De todos modos, una vez que tenga el archivo css puede comenzar a usar los estilos de bootstrap
+bootstrap puede ayudarlo hacer mas rapido PERO debe aprender a como usarlo
+Cuale son los diferentes stilos, como se llaman y que hacen
+
+tambien tiene la opcion de utlizar preprocesadores de css
+Un preprocesador css es un framework o lenguaje que se usa para crear estilos css
+Los preprocesadores css pueden hacer cosas mas avanzadas que css
+Se crearon porque algunas personas no estan conectadas con las expressiones simplistas que se pueden hacer en css y como esto puede llevar a documentos css grandes y difiles de mantener
+hay muchos preprocesadores de css, como sass y less. Cuando utiliza un preprocesador css, escribe su codigo de estilo en el idioma del proprocesador
+el lenguaje del less es mas avanzado que css
+en el caso de less tiene caracteristicas como variables
+Esto puede ser muy util
+less se compila a css
+los proprocesadores pueden aumentar tu productividad
+
+Css es el mecanismo de diseno web
+es un estandar que describe los selectore para seleccionar, propiedades y atributos
+cada navegador interpreta el css a su manera
+Afortunadamente segun los estandares 
+css es util para separar el estilo del contenido
+donde el css se describe en documentos css y el contenido en html
+css es un estandar rico que describe muchas capacidades 
+css provee de muchas propiedades avanzadas
+mediaquerys
+animaciones
+degradados
+y css esta evolucionando para incluir cada vez mas
+capacidades que facilitan el estilo del contenido para dispositivos moviles y la creacon de animaciones
+hay diferentes formas de usar css
+de cero 
+con librerias
+con preprocesadores
