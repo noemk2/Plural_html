@@ -62,3 +62,79 @@ Esto ha sido un punto controversial, ya que muchos desarrolladores lo describen 
 y propenso a errores
 
 Sobre todas la adversidades javaScript esta en todas partes y es mas popular que nunca
+
+#What is javaScript
+javaScript puede usarse para manipular el navegador y hablar con el servicios
+
+#Making AJAX calls
+Otra cosa que podemos hacer con js es hacer llamadas ajax, esto causo furor en el pasado porque usando ajax
+podia hacer todo tipo de cosas interactivas y avanzadas desde el navegador sin tener que actualizar la pagina
+Por cierto, significa javaScript y xml asincronicos y es solo una cierta tecnica que involucra javaScript
+No es una tecnologia adicional
+Asi es como funciona en su
+Tu navegador web ha cargado un documento html y algo de js que podria provenir de documentos js externos
+Ahora, desde el navegador, puede llamar una API externa de la url
+esta API puede retornar algo como un documento que luego (documento.txt)
+que luego procesas usando js en el navegador
+El punto de esto es que el uso de js en el contexto de la tecnica
+es usar servicios para referir a una api, sin refrescar tu navegador
+Para que los desarrolladores creen paginas mas interactivas
+
+<script>
+function loadDoc(){
+	var xhtml = new XMLHttpRequest()
+	xhttp.onreadystatechange = function(){
+		if (this.readyState == 4 && this.status == 200){
+			document.getElementById('demo').innerHTML = this.responseText
+		}
+	}
+	xhttp.open('GET', 'ajax_info.txt', true)
+	xhttp.sent()
+}
+
+</script>
+
+desifrando codigo
+tenemos la funcion loadDoc()
+esto esta usando ajax
+lo que significa que esta usando XMLHttpRequest()
+usando este objeto se puede realizar llamadas a servidores que esta en otro lugar sin tener que actualizar la pagina
+ESTE ES LA ESENCIA DE de la TECNICA DE AJAX
+
+---
+
+En este caso adjunte este evento llamado xhtttp objeto
+Este se dispara cuando el estado del objeto cambia
+esto ocurre (el cambio del estado del objeto)
+porque cuando se realiza una llamada a un servidor externo
+Y hace esto (condicional)
+entonces todo salio bien
+cambia el texto de demo
+y obtiene el texto que se optiene
+xhttp.open('GET', 'ajax_info.txt', true)
+
+#Working with js
+
+javaScript es realmente el pegamento de la web
+el causante de que las aplicaciones cobren vida e interactuen con el usuario
+javaScript no se deriva de java pero se comercializo como un complemento de java
+javaScript se parece a java pero funciona de manera diferente
+javaScript es lenguaje de programacion de alto nivel que fue creado para ser facil de usar para los desarrolladores y diseñadores
+y se puede hacer mucho con el
+Puede usar javaScript para interactuar con html y cambiarlo sobre la marcha
+usarlo para interactuar con el navegador (crear ventanas emergentes)
+tambien iteractuar con camara web y el microfono al que puede accedes el navegador
+Y puede usar javaScript para interactuar con otros sistemas como API que viven en servers
+Y puedes hacer todo esto si refrescar el navegador para crear una experiencia perfecta para los usuarios
+
+la funcionalidad de javaScript es un estandar que se describe en el standar ECMAScript
+Los navegadores web implementan este estandar
+ALGUNOS lo hacen al pie de la letra
+otros les gusta detras o tienen diferentes implementaciones para las caracteristicas
+El punto es que sin herramientas como los navegadores web
+ECMAScript es solo un estandar 
+Al igual que HTML y CSS 
+JAVASCRIPT es solo texto
+Esto significa que puede escribirlo desde cero o con editores
+O usar la funcionalidad prefabricada de una biblioteca
+como jquery o otros
